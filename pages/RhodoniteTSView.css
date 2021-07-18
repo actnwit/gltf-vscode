@@ -1,0 +1,29 @@
+#RhodoniteTSContainer {
+    position: absolute;
+    top: 0px;
+    width:100%;
+    height:100%;
+}
+
+#RhodoniteTSLogoContainer {
+    position: absolute;
+    width: 100px;
+    bottom: 0px;
+    left: 0px;
+    padding: 4px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#RhodoniteTSLogo {
+    width: 100%;
+}
+
+#RhodoniteTSRevision {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 0;
+    color: black;
+    font-size: 12px;
+}
