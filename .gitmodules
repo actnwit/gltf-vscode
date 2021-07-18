@@ -1,0 +1,3 @@
+[submodule ".\\engines\\RhodoniteTS"]
+	path = .\\engines\\RhodoniteTS
+	url = https://github.com/actnwit/RhodoniteTS.git
