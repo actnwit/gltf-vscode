@@ -359,7 +359,8 @@
         "compile:client": "tsc -p ./tsconfig.json",
         "watch:client": "tsc -w -p ./tsconfig.json",
         "compile:server": "cd server && npm run installServer && cd .. && tsc -p server/tsconfig.json",
-        "watch:server": "cd server && npm run installServer && cd .. && tsc -w -p server/tsconfig.json"
+        "watch:server": "cd server && npm run installServer && cd .. && tsc -w -p server/tsconfig.json",
+        "compile:rhodonite": "npm --prefix engines/RhodoniteTS run build"
     },
     "devDependencies": {
         "@types/mocha": "^8.0.0",
